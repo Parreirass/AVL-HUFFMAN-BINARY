@@ -63,18 +63,18 @@ A função `calcula_heap()` já faz tanto o processo de criação da heap quanto
   - Caso o próximo valor seja maior, é inserido como filho direito.
   - Caso o próximo valor seja igual, é inserido como filho direito.
 ``` C++ code
-BinaryNode* insertBinaria(BinaryNode* node, int data, const string& label) {
+BinaryNode* insertBinaria(BinaryNode* node, int quantidade, const string& palavra) {
     if (node == nullptr) {
-        return new BinaryNode(data, label);
+        return new BinaryNode(quantidade, palavra);
     }
 
-    if (data < node->data) {
-        node->left = insertBinaria(node->left, data, label);
-    } else if (data > node->data) {
-        node->right = insertBinaria(node->right, data, label);
+    if (quantidade < node->quantidade) {
+        node->left = insertBinaria(node->left, quantidade, palavra);
+    } else if (quantidade > node->quantidade) {
+        node->right = insertBinaria(node->right, quantidade, palavra);
     } else {
         // Mesma chave, insira no nó direito
-        node->right = insertBinaria(node->right, data, label);
+        node->right = insertBinaria(node->right, quantidade, palavra);
     }
 
     // Atualize a altura após a inserção
