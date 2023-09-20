@@ -38,6 +38,7 @@ Arquivos de texto auxiliares são utilizados para leitura e escrita.
 |  `leitura.cpp`                  | Contém o escopo de todas as funções que foram utilizadas |
 | `stopwords.csv` | arquivo que contem as stop words|
 | `arquivo_de_leitura.txt` | um dos arquivos de entrada principal no qual será feita toda a análise |
+| `inpux.txt` | arquivo de entrada com as palavras a serem lidas |
 
 > O arquivo `main.cpp` "chama" apenas uma função definida no `leitura.hpp` e processada no `leitura.cpp`, chamada `readPrincipal()`. Ela, por sua vez, organiza todo o processo e as demais funções presentes no projeto. 
 
