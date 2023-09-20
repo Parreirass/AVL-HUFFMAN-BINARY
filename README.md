@@ -12,9 +12,45 @@ AEDS II | CEFET-MG
 
 ## Proposta do Projeto
 
+A proposta geral do projeto é criar um sistema que oferece sujestões de palavras relacionadas à partir de uma palavra lida. 
+Existe um arquivo com palavras que serão lidas e, caso a palavra trabalhada exista em algum dos arquivos de texto selecionados, é construída uma árvore de cada tipo com as `K` palavras mais recorrentes, com o objetivo de exibir uma sujestão de próxima palavra relacionada.
+> São utilizadas árvores AVL, binária e "Código de huffman", que aperfeiçoa a árvore binária.
+- É necessário usar uma estrutura `HASH` para o armazenamento das palavras.
+  - São consideradas palavras apenas aquelas que possuem todos os caracteres presentes na tabela `ASCII`.
+  - Sinais de pontuação são removidos antes da análise de palavras.
+- As `N` palavras mais recorrentes são selecionadas utilizando uma estrutura `HEAP`.
+- Existe um arquivo chamado `stopwords.csv` que contém palavras consideradas como *stopwords*, elas não devem ser consideradas como palavras à serem analisadas as recorrências. Caso fossem consideradas como palavras comuns, elas iriam ser as que mais apareceriam nos textos.
+- Para cada texto em que a palavra trabalhada aparece, é exibido uma árvore de cada tipo no arquivo `output.txt` com as `N` palavras mais recorrentes no texto.
+
+|          Sinais de pontuação  | Stop words                                      |
+|-------------------------------|-------------------------------------------------|
+| `.`,   `!`,   `?`                   |   `artigos(a, o, as,os), conjunções(e, ou), palavras comuns (aquela, estiver) `  |
+
 ## Arquivos e Funções
 
+O projeto é dividido entre três arquivos de códigos própriamente ditos: `leitura.hpp`, `leitura.cpp` e `main.cpp`.
+Arquivos de texto auxiliares são utilizados para leitura e escrita.
+
+|  Arquivo                        |   Função                                                                                          |
+| ------------------------------- | ------------------------------------------------------------------------------------------------- |
+|  `main.cpp`                       | Arquivo principal para iniciar e chamar as funções do código                                                    |
+|  `leitura.hpp`                  | Define as funções e as estruturas que foram utilizadas no código |
+|  `leitura.cpp`                  | Contém o escopo de todas as funções que foram utilizadas |
+| `stopwords.csv` | arquivo que contem as stop words|
+| `arquivo_de_leitura.txt` | um dos arquivos de entrada principal no qual será feita toda a análise |
+
+> O arquivo `main.cpp` "chama" apenas uma função definida no `leitura.hpp` e processada no `leitura.cpp`, chamada `readPrincipal()`. Ela, por sua vez, organiza todo o processo e as demais funções presentes no projeto. 
+
 ## Lógica Implementada
+
+A função `readPrincipal()` trabalha todo o código e invoca as demais funções. 
+- Existem duas variáveis do tipo `vector` que "coordenam" qual palavra está sendo trabalhada por qual arquivo:
+  - *filenames*: Armazena os arquivos de texto a serem trabalhados
+  - *palavras*: Armazena as palavras (`input.txt`) a serem trabalhadas. É preenchido na função `ler_palavras()`.
+
+A função `procurar_no_arquivo()` recebe a palavra trabalhada e o arquivo de texto que será trabalhado, caso ela exista nesse arquivo, é feita a tabela `HASH` separando cada palavra e sua respectiva quantidade de aparições para, posteriormente, ser feita a `heap`, que, por sua vez, separará as *K* palavras mais presentes.
+
+Para explicações detalhadas sobre funcionamento da HASH e da heap presentes no código, acesse o link: [WordRecurrence](https://github.com/Parreirass/WordRecurrence)
 
 ## Testes Realizados
 
