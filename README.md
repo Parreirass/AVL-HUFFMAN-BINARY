@@ -73,11 +73,9 @@ BinaryNode* insertBinaria(BinaryNode* node, int quantidade, const string& palavr
     } else if (quantidade > node->quantidade) {
         node->right = insertBinaria(node->right, quantidade, palavra);
     } else {
-        // Mesma chave, insira no nó direito
         node->right = insertBinaria(node->right, quantidade, palavra);
     }
 
-    // Atualize a altura após a inserção
     updateBinaryHeight(node);
 
     return node;
