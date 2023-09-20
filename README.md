@@ -54,6 +54,38 @@ A função `procurar_no_arquivo()` recebe a palavra trabalhada e o arquivo de te
 
 Para explicações detalhadas sobre funcionamento da HASH e da heap presentes no código, acesse o link: [WordRecurrence](https://github.com/Parreirass/WordRecurrence)
 
+Com a HASH feita e a heap construída, podemos passar para a construção das árvores.
+> Cada árvore é feita a partir de um vector (*heap*) de *pair*, em que cada posição armazena a palavra e sua respectiva quantidade de aparições no texto. A inserção e balanceamento são feitos em relação à quantidade de palavras.
+
+A função `calcula_heap()` já faz tanto o processo de criação da heap quanto o de criação de todas as árvores. A `ÁRVORE BINÁRIA` é a primeira a ser construída, e ela funciona da seguinte forma:
+- Existe uma função chamada `arvore_binária()`, que cria uma variável de ponteiro do tipo *BinaryNode* apontando para nulo. Depois, percorre posição por posição do vector *min_heap* e vai fazendo a inserção direcionando cada ponteiro para cada filho esquerdo ou direito da posição da árvore da seguinte forma:
+  - Caso o próximo valor seja menor, é inserido como filho esquerdo.
+  - Caso o próximo valor seja maior, é inserido como filho direito.
+  - Caso o próximo valor seja igual, é inserido como filho direito.
+``` C++ code
+BinaryNode* insertBinaria(BinaryNode* node, int data, const string& label) {
+    if (node == nullptr) {
+        return new BinaryNode(data, label);
+    }
+
+    if (data < node->data) {
+        node->left = insertBinaria(node->left, data, label);
+    } else if (data > node->data) {
+        node->right = insertBinaria(node->right, data, label);
+    } else {
+        // Mesma chave, insira no nó direito
+        node->right = insertBinaria(node->right, data, label);
+    }
+
+    // Atualize a altura após a inserção
+    updateBinaryHeight(node);
+
+    return node;
+}
+```
+- Ao fim da inserção, a função `printInOrderBinary()` imprime a árvore no formato *InOrder* no arquivo `output.txt`.
+Finalmente, a função `destroyBinary()` libera a memória alocada para a construção da árvore.
+
 ## Testes Realizados
 
 ## Conclusão
