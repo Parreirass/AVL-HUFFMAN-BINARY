@@ -97,6 +97,60 @@ A construção de uma árvore de Huffman está diretamente relacionada à constr
 - Um novo nó é criado como pai desses dois nós, com uma frequência igual à soma das frequências dos filhos.
 - O novo nó é inserido de volta na fila de prioridade.
 - O processo continua até que haja apenas um nó na fila de prioridade, que se torna a raiz da árvore de Huffman.
+
+```C++ Code
+HuffmanNode* buildHuffmanTree(vector<pair<string, int>>& min_heap) {
+    priority_queue<pair<int, HuffmanNode*>, vector<pair<int, HuffmanNode*>>, greater<pair<int, HuffmanNode*>>> pq;
+
+    for (auto& pair : min_heap) {
+        HuffmanNode* node = new HuffmanNode(pair.first, pair.second);
+        pq.push({pair.second, node});
+    }
+
+    while (pq.size() > 1) {
+        pair<int, HuffmanNode*> leftNode = pq.top();
+        pq.pop();
+        pair<int, HuffmanNode*> rightNode = pq.top();
+        pq.pop();
+
+        HuffmanNode* newNode = new HuffmanNode("", leftNode.first + rightNode.first);
+        newNode->left = leftNode.second;
+        newNode->right = rightNode.second;
+
+        pq.push({newNode->frequency, newNode});
+    }
+
+    return pq.top().second;
+}
+
+void printHuffmanTreeBFS(HuffmanNode* root, ofstream& file_output) {
+    string code="";
+    if (!root)
+        return;
+
+    queue<pair<HuffmanNode*, string>> q;
+    q.push({root, code});
+
+    while (!q.empty()) {
+        pair<HuffmanNode*, string> currentPair = q.front();
+        q.pop();
+
+        HuffmanNode* current = currentPair.first;
+        string currentCode = currentPair.second;
+
+        if (current->left == nullptr && current->right == nullptr) {
+            file_output << current->data << ": " << currentCode << endl;
+        }
+
+        if (current->left)
+            q.push({current->left, currentCode + "0"});
+
+        if (current->right)
+            q.push({current->right, currentCode + "1"});
+    }
+}
+```
+
 > Uma vez que a árvore de Huffman está completa, códigos binários são atribuídos aos símbolos com base na estrutura da árvore. Os caminhos da raiz da árvore até os nós folha determinam os códigos. Aos ramos da esquerda são concatenados o código binário 0, e os ramos da direita são concatenados o código binário 1.
 
 - Como os códigos de Huffman são atribuídos com base na frequência dos símbolos, símbolos mais comuns terão códigos mais curtos e símbolos menos comuns terão códigos mais longos. Isso resulta em uma redução geral no tamanho dos dados, uma vez que os símbolos mais comuns são representados de forma mais eficiente com menos bits.
@@ -105,6 +159,7 @@ A construção de uma árvore de Huffman está diretamente relacionada à constr
 
 <center>
   <img src = "img/huffman.gif">
+  <img src = "img/huffman2.jpg">
 </center>
 
 ## Conclusão
