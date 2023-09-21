@@ -233,6 +233,13 @@ A escolha da rotação depende do tipo de desequilíbrio e da posição do nó d
   <img src = "img/avl.gif">
 </center>
 
+## Testes Realizados
+- Os testes que serão apresentados abaixo foram feitos em um Notebook Acer Nitro 5 (intel i5 10300H - gtx 1650 - 8gb ram).
+> A exibição das árvores está no modelo "In Order" (crescente).
+> Foi definido o *K=10* através de um *#define K 10*, logo cada árvore terá 10 elementos.
+
+
+
 ## Conclusão
 
 ## Compilação e Execução
