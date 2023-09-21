@@ -59,7 +59,7 @@ Com a HASH feita e a heap construída, podemos passar para a construção das á
 > Cada árvore é feita a partir de um vector (*heap*) de *pair*, em que cada posição armazena a palavra e sua respectiva quantidade de aparições no texto. A inserção e balanceamento são feitos em relação à quantidade de palavras.
 
 A função `calcula_heap()` já faz tanto o processo de criação da heap quanto o de criação de todas as árvores. 
-A `ÁRVORE BINÁRIA` é a primeira a ser construída, e ela funciona da seguinte forma:
+
 #### Ávore Binária
 - Existe uma função chamada `arvore_binária()`, que cria uma variável de ponteiro do tipo *BinaryNode* apontando para nulo. Depois, percorre posição por posição do vector *min_heap* e vai fazendo a inserção direcionando cada ponteiro para cada filho esquerdo ou direito da posição da árvore da seguinte forma:
   - Caso o próximo valor seja menor, é inserido como filho esquerdo.
@@ -161,6 +161,25 @@ void printHuffmanTreeBFS(HuffmanNode* root, ofstream& file_output) {
   <img src = "img/huffman.gif">
   <img src = "img/huffman2.jpg">
 </center>
+
+#### Árvore AVL
+Existe uma função chamada `insertAVL()` que inicializa o novo nó da árvore AVL. A cada inserção é verificado o valor *quantidade* armazenado em cada nó já presente na árvore, para ver em qual posição o novo nó seria inserido:
+- Caso o novo nó seja maior (chave) que o atual, ele será inserido à direita.
+- Caso o novo nó seja menor (chave) que o atual, ele será inserido à esquerda.
+- Caso o novo nó seja igual (chave) ao atual, a palavra será adicionada à um vector de palavras repetidas e irá apontar para o nó já presente.
+A árvore AVL possui um diferencial em relação à *ÁRVORE BINÁRIA*, o **balanceamento**. O balanceamento serve para equilibrar a árvore em relação aos filhos direito e esquerdo de cada nó, afim de que um lado não se torne significativamente maior que outro.
+Existem 4 tipos de rotação:
+- **Rotação simples à direita**
+  - Na rotação simples à direita, cada nó se move uma posição para a direita da posição atual.
+- **Rotação simples à esquerda**
+  - Na rotação simples à esquerda, cada nó se move uma posição para a esquerda da posição atual.
+- **Rotação dupla à direita**
+  - As rotações duplas à direita são uma combinação de uma única rotação para a esquerda seguida de uma rotação para a direita.
+  - Primeiro, cada nó se move uma posição para a esquerda. Depois, se move uma posição para a direita da posição atual.
+
+- **Rotação dupla à esquerda**
+  - As rotações duplas à esquerda são uma combinação de uma única rotação para a direita seguida de uma rotação para a esquerda.
+  - Primeiro, cada nó se move uma posição para a direita. Depois, se move uma posição para a esquerda da posição atual.
 
 ## Conclusão
 
