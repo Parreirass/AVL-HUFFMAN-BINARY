@@ -86,6 +86,8 @@ BinaryNode* insertBinaria(BinaryNode* node, int quantidade, const string& palavr
 - Ao fim da inserção, a função `printInOrderBinary()` imprime a árvore no formato *InOrder* no arquivo `output.txt`.
 Finalmente, a função `destroyBinary()` libera a memória alocada para a construção da árvore.
 
+
+
 #### Código de Huffman
 A construção de uma árvore de Huffman está diretamente relacionada à construção de uma árvore binária, sendo uma espécie de otimização da mesma, utilizando a concatenação de números `0` e `1`, dependendo da presença de filho esquerdo ou direito.
 - Inicialmente, a função `buildHuffmanTree()` cria uma fila de prioridade que encontra os dois *"nós"* menos frequentes mais rapidamente. Para toda posição da `min_heap` é criado um nó *HuffmanNode*
