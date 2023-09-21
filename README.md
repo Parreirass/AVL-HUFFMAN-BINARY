@@ -168,18 +168,70 @@ Existe uma função chamada `insertAVL()` que inicializa o novo nó da árvore A
 - Caso o novo nó seja menor (chave) que o atual, ele será inserido à esquerda.
 - Caso o novo nó seja igual (chave) ao atual, a palavra será adicionada à um vector de palavras repetidas e irá apontar para o nó já presente.
 A árvore AVL possui um diferencial em relação à *ÁRVORE BINÁRIA*, o **balanceamento**. O balanceamento serve para equilibrar a árvore em relação aos filhos direito e esquerdo de cada nó, afim de que um lado não se torne significativamente maior que outro.
+
+```C++ Code
+AVLNode* insertAVL(AVLNode* node, int quantidade, const string& palavra) {
+    if (node == nullptr) {
+        return new AVLNode(quantidade, palavra);
+    }
+
+    if (quantidade < node->quantidade) {
+        node->left = insertAVL(node->left, quantidade, palavra);
+    } else if (quantidade > node->quantidade) {
+        node->right = insertAVL(node->right, quantidade, palavra);
+    } else {
+        node->vetor_palavras.push_back(palavra);
+    }
+
+    node->height = 1 + max(getHeight(node->left), getHeight(node->right));
+   
+    int balance = getBalanceFactor(node);
+
+    if (balance > 1) {
+        if (quantidade < node->left->quantidade) {
+            return rotateRight(node);
+        } else {
+            node->left = rotateLeft(node->left);
+            return rotateRight(node);
+        }
+    }
+
+    if (balance < -1) {
+        if (quantidade > node->right->quantidade) {
+            return rotateLeft(node);
+        } else {
+            node->right = rotateRight(node->right);
+            return rotateLeft(node);
+        }
+    }
+    return node;
+}
+```
+
 Existem 4 tipos de rotação:
 - **Rotação simples à direita**
   - Na rotação simples à direita, cada nó se move uma posição para a direita da posição atual.
+  - Quando um nó tem um fator de equilíbrio de -2 e seu filho à direita tem um fator de equilíbrio de -1 ou 0, uma rotação simples à direita é aplicada para restaurar o equilíbrio.
 - **Rotação simples à esquerda**
   - Na rotação simples à esquerda, cada nó se move uma posição para a esquerda da posição atual.
+  - Quando um nó tem um fator de equilíbrio de 2 e seu filho à esquerda tem um fator de equilíbrio de 1 ou 0, uma rotação simples à esquerda é aplicada para restaurar o equilíbrio.
 - **Rotação dupla à direita**
   - As rotações duplas à direita são uma combinação de uma única rotação para a esquerda seguida de uma rotação para a direita.
+  - Quando um nó tem um fator de equilíbrio de -2 e seu filho à direita tem um fator de equilíbrio de 1, uma rotação dupla à direita-esquerda é aplicada.
   - Primeiro, cada nó se move uma posição para a esquerda. Depois, se move uma posição para a direita da posição atual.
 
 - **Rotação dupla à esquerda**
   - As rotações duplas à esquerda são uma combinação de uma única rotação para a direita seguida de uma rotação para a esquerda.
+  - Quando um nó tem um fator de equilíbrio de 2 e seu filho à esquerda tem um fator de equilíbrio de -1, uma rotação dupla à esquerda-direita é aplicada.
   - Primeiro, cada nó se move uma posição para a direita. Depois, se move uma posição para a esquerda da posição atual.
+
+> Um filho à esquerda equivale à um fator de equilíbrio *-1* e um à direita equivale à um fator de equilíbrio *+1*.
+
+A escolha da rotação depende do tipo de desequilíbrio e da posição do nó desequilibrado em relação ao nó pai e ao avô. O objetivo das rotações é restaurar o equilíbrio da árvore AVL para garantir que a diferença de altura entre as subárvores esquerda e direita em todos os nós seja mantida em -1, 0 ou 1. Isso garante um tempo de busca eficiente em árvores AVL.
+
+<center>
+  <img src = "img/avl.gif">
+</center>
 
 ## Conclusão
 
