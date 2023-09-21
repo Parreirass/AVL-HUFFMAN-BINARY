@@ -242,9 +242,13 @@ A escolha da rotação depende do tipo de desequilíbrio e da posição do nó d
 
 - Palavras contidas no arquivo `input.txt` que serão lidas e trabalhadas no código. Caso a palavra analisada esteja em um arquivo de texto, serão feitas as árvores com as *K* palavras mais recorrentes daquele texto.
 
+<br><br>
+
 <img src = "img/terminal.jpeg">
 
 - O terminal exibe qual palavra está sendo trabalhada e em qual arquivo essa palavra está sendo buscada. Caso ela esteja presente, as árvores serão escritas no arquivo `output.txt`, caso o contrário, é exibida uma mensagem no terminal informando a sua ausência no texto.
+
+<br><br>
 
 <img src = "img/output.jpeg">
 
@@ -253,7 +257,13 @@ A escolha da rotação depende do tipo de desequilíbrio e da posição do nó d
 > Ao final da execução, é exibido no terminal o tempo gasto para toda a execução do código.
 
 ## Conclusão
+O projeto *AVL-HUFFMAN-BINARY* cumpre seu papel com êxito. Com proposta de busca em um arquivo de texto e criação de árvores de recorrência, o programa desempenha papel satisfatório e correto na construção e exibição das árvores binária, avl e huffman.
+É possível observar as diferenças entre as árvores e em qual momento é mais vantajoso a utilização de qual árvore. 
+- A árvore binária apresenta uma estrutura simplória de inserção e remoção. Porém a ineficiência para busca é seu ponto negativo.
+- A árvore AVL tem o balanceamento como seu benefício, mantendo a complexidade de inserção e remoção em O(logn). Entretanto, o prório balanceamento a deixa sua construção um tanto quanto complexa.
+- A árvore Huffman tem a compactação de dados como seu ponto positivo, tornando eficaz na redução do espaço de armazenamento. Já como ponto negativo, a ineficiência para busca pode ser citada.
 
+**Portanto, a escolha entre essas estruturas de árvore depende da aplicação específica e das necessidades de desempenho e espaço.**
 
 
 ## Compilação e Execução
