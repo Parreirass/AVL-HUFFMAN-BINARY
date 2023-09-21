@@ -52,6 +52,7 @@ A função `readPrincipal()` trabalha todo o código e invoca as demais funçõe
 
 A função `procurar_no_arquivo()` recebe a palavra trabalhada e o arquivo de texto que será trabalhado, caso ela exista nesse arquivo, é feita a tabela `HASH` separando cada palavra e sua respectiva quantidade de aparições para, posteriormente, ser feita a `heap`, que, por sua vez, separará as *K* palavras mais presentes.
 
+O projeto *WordRecurrence* (repositório) usa a mesma estrutura de alocamento de palavras e suas respectivas quantidades e criação da heap com as palavras mais frequentes que esse repositório.
 Para explicações detalhadas sobre funcionamento da HASH e da heap presentes no código, acesse o link: [WordRecurrence](https://github.com/Parreirass/WordRecurrence)
 
 Com a HASH feita e a heap construída, podemos passar para a construção das árvores.
@@ -85,8 +86,9 @@ BinaryNode* insertBinaria(BinaryNode* node, int quantidade, const string& palavr
 ```
 - Ao fim da inserção, a função `printInOrderBinary()` imprime a árvore no formato *InOrder* no arquivo `output.txt`.
 Finalmente, a função `destroyBinary()` libera a memória alocada para a construção da árvore.
-
-
+<center>
+  <img src = "img/image11.gif">
+</center>
 
 #### Código de Huffman
 A construção de uma árvore de Huffman está diretamente relacionada à construção de uma árvore binária, sendo uma espécie de otimização da mesma, utilizando a concatenação de números `0` e `1`, dependendo da presença de filho esquerdo ou direito.
@@ -95,9 +97,15 @@ A construção de uma árvore de Huffman está diretamente relacionada à constr
 - Um novo nó é criado como pai desses dois nós, com uma frequência igual à soma das frequências dos filhos.
 - O novo nó é inserido de volta na fila de prioridade.
 - O processo continua até que haja apenas um nó na fila de prioridade, que se torna a raiz da árvore de Huffman.
+> Uma vez que a árvore de Huffman está completa, códigos binários são atribuídos aos símbolos com base na estrutura da árvore. Os caminhos da raiz da árvore até os nós folha determinam os códigos. Aos ramos da esquerda são concatenados o código binário 0, e os ramos da direita são concatenados o código binário 1.
 
+- Como os códigos de Huffman são atribuídos com base na frequência dos símbolos, símbolos mais comuns terão códigos mais curtos e símbolos menos comuns terão códigos mais longos. Isso resulta em uma redução geral no tamanho dos dados, uma vez que os símbolos mais comuns são representados de forma mais eficiente com menos bits.
 
-## Testes Realizados
+> Por exemplo, considere um texto que contenha principalmente as palavras "mundo", "planeta", "terra" e "espaço", com a palavra "planeta" sendo a mais comum. Na árvore de Huffman, "planeta" provavelmente terá um código curto, como "10", enquanto as outras palavras terão códigos mais longos, como "110", "111", etc. Quando você compacta o texto usando esses códigos, ele se torna mais curto do que se você usasse a representação completa de cada letra.
+
+<center>
+  <img src = "img/huffman.gif">
+</center>
 
 ## Conclusão
 
