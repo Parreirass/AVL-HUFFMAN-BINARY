@@ -238,9 +238,23 @@ A escolha da rotação depende do tipo de desequilíbrio e da posição do nó d
 > A exibição das árvores está no modelo "In Order" (crescente).
 > Foi definido o *K=10* através de um *#define K 10*, logo cada árvore terá 10 elementos.
 
+<img src ="img/palavras.jpeg">
 
+- Palavras contidas no arquivo `input.txt` que serão lidas e trabalhadas no código. Caso a palavra analisada esteja em um arquivo de texto, serão feitas as árvores com as *K* palavras mais recorrentes daquele texto.
+
+<img src = "img/terminal.jpeg">
+
+- O terminal exibe qual palavra está sendo trabalhada e em qual arquivo essa palavra está sendo buscada. Caso ela esteja presente, as árvores serão escritas no arquivo `output.txt`, caso o contrário, é exibida uma mensagem no terminal informando a sua ausência no texto.
+
+<img src = "img/output.jpeg">
+
+- Esse é um exemplo das árvores criadas a partir da palavra *teoria* no arquivo de texto `filosofia.txt`. As árvores estão exibidas no modelo "In Order" e, as árvores Binária e AVL exibem a palavra e sua respectiva recorrência, já a Huffman, exibe a palavra seguida de seu respectivo código.
+
+> Ao final da execução, é exibido no terminal o tempo gasto para toda a execução do código.
 
 ## Conclusão
+
+
 
 ## Compilação e Execução
 Esse exemplo possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
