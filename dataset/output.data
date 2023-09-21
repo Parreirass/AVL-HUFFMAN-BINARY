@@ -1,0 +1,1476 @@
+
+===================================================================
+PALAVRA: teoria
+ARQUIVO dataset/Docs/filosofia.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: segundo
+114: sobre
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+AVL TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: segundo
+114: sobre
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+HUFFMAN CODE ->
+segundo: 000
+sobre: 001
+pensamento: 010
+modo: 011
+mundo: 100
+condição: 101
+vista: 1100
+imanente: 1101
+sentido: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: teoria
+ARQUIVO dataset/Docs/filosofia2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+AVL TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+HUFFMAN CODE ->
+segundo: 000
+pensamento: 001
+sistema: 010
+modo: 011
+condição: 100
+mundo: 101
+princípio: 1100
+imanente: 1101
+sentido: 1110
+sobre: 1111
+
+===================================================================
+PALAVRA: sujeito
+ARQUIVO dataset/Docs/filosofia.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+AVL TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+HUFFMAN CODE ->
+sobre: 000
+segundo: 001
+pensamento: 010
+modo: 011
+mundo: 100
+condição: 101
+vista: 1100
+imanente: 1101
+sentido: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: sujeito
+ARQUIVO dataset/Docs/filosofia2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+AVL TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+HUFFMAN CODE ->
+segundo: 000
+pensamento: 001
+sistema: 010
+modo: 011
+condição: 100
+mundo: 101
+princípio: 1100
+imanente: 1101
+sentido: 1110
+sobre: 1111
+
+===================================================================
+PALAVRA: priori
+ARQUIVO dataset/Docs/filosofia.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+AVL TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+HUFFMAN CODE ->
+sobre: 000
+segundo: 001
+pensamento: 010
+modo: 011
+mundo: 100
+condição: 101
+vista: 1100
+imanente: 1101
+sentido: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: priori
+ARQUIVO dataset/Docs/filosofia2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+AVL TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+HUFFMAN CODE ->
+segundo: 000
+pensamento: 001
+sistema: 010
+modo: 011
+condição: 100
+mundo: 101
+princípio: 1100
+imanente: 1101
+sentido: 1110
+sobre: 1111
+
+===================================================================
+PALAVRA: processo
+ARQUIVO dataset/Docs/filosofia.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+AVL TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+HUFFMAN CODE ->
+sobre: 000
+segundo: 001
+pensamento: 010
+modo: 011
+mundo: 100
+condição: 101
+vista: 1100
+imanente: 1101
+sentido: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: processo
+ARQUIVO dataset/Docs/filosofia2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+AVL TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+HUFFMAN CODE ->
+segundo: 000
+pensamento: 001
+sistema: 010
+modo: 011
+condição: 100
+mundo: 101
+princípio: 1100
+imanente: 1101
+sentido: 1110
+sobre: 1111
+
+===================================================================
+PALAVRA: processo
+ARQUIVO dataset/Docs/politica.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+134: sistema
+134: informações
+134: ainda
+198: eleitores
+198: política
+199: melhoria
+199: metas
+200: atual
+200: saúde
+200: sentido
+
+AVL TREE -> 
+134: sistema
+134: informações
+134: ainda
+198: eleitores
+198: política
+199: melhoria
+199: metas
+200: atual
+200: saúde
+200: sentido
+
+HUFFMAN CODE ->
+política: 000
+melhoria: 001
+metas: 010
+atual: 011
+saúde: 100
+sentido: 101
+sistema: 1100
+informações: 1101
+ainda: 1110
+eleitores: 1111
+
+===================================================================
+PALAVRA: processo
+ARQUIVO dataset/Docs/ti2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+AVL TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+HUFFMAN CODE ->
+tempo: 000
+sistema: 001
+melhor: 010
+hardware: 011
+aumento: 100
+implantação: 101
+desenvolvimento: 1100
+impacto: 1101
+novas: 1110
+informações: 1111
+
+===================================================================
+PALAVRA: processo
+ARQUIVO dataset/Docs/ti.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+AVL TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+HUFFMAN CODE ->
+melhor: 000
+sistema: 001
+impacto: 010
+novas: 011
+informações: 100
+implantação: 101
+hardware: 1100
+tempo: 1101
+desenvolvimento: 1110
+aumento: 1111
+
+===================================================================
+PALAVRA: processo
+ARQUIVO dataset/Docs/globalizacao.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+133: vez
+134: necessidade
+134: modo
+134: sistema
+134: importância
+134: formas
+134: podemos
+134: melhoria
+134: quadros
+200: sentido
+
+AVL TREE -> 
+133: vez
+134: necessidade
+134: modo
+134: sistema
+134: importância
+134: formas
+134: podemos
+134: melhoria
+134: quadros
+200: sentido
+
+HUFFMAN CODE ->
+importância: 000
+formas: 001
+podemos: 010
+melhoria: 011
+quadros: 100
+sentido: 101
+vez: 1100
+necessidade: 1101
+modo: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: assim
+ARQUIVO dataset/Docs/filosofia.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+AVL TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+HUFFMAN CODE ->
+sobre: 000
+segundo: 001
+pensamento: 010
+modo: 011
+mundo: 100
+condição: 101
+vista: 1100
+imanente: 1101
+sentido: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: assim
+ARQUIVO dataset/Docs/filosofia2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+AVL TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+HUFFMAN CODE ->
+segundo: 000
+pensamento: 001
+sistema: 010
+modo: 011
+condição: 100
+mundo: 101
+princípio: 1100
+imanente: 1101
+sentido: 1110
+sobre: 1111
+
+===================================================================
+PALAVRA: assim
+ARQUIVO dataset/Docs/politica.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+134: sistema
+134: informações
+134: ainda
+198: eleitores
+198: política
+199: melhoria
+199: metas
+200: atual
+200: saúde
+200: sentido
+
+AVL TREE -> 
+134: sistema
+134: informações
+134: ainda
+198: eleitores
+198: política
+199: melhoria
+199: metas
+200: atual
+200: saúde
+200: sentido
+
+HUFFMAN CODE ->
+política: 000
+melhoria: 001
+metas: 010
+atual: 011
+saúde: 100
+sentido: 101
+sistema: 1100
+informações: 1101
+ainda: 1110
+eleitores: 1111
+
+===================================================================
+PALAVRA: assim
+ARQUIVO dataset/Docs/ti2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+AVL TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+HUFFMAN CODE ->
+tempo: 000
+sistema: 001
+melhor: 010
+hardware: 011
+aumento: 100
+implantação: 101
+desenvolvimento: 1100
+impacto: 1101
+novas: 1110
+informações: 1111
+
+===================================================================
+PALAVRA: assim
+ARQUIVO dataset/Docs/ti.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+AVL TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+HUFFMAN CODE ->
+melhor: 000
+sistema: 001
+impacto: 010
+novas: 011
+informações: 100
+implantação: 101
+hardware: 1100
+tempo: 1101
+desenvolvimento: 1110
+aumento: 1111
+
+===================================================================
+PALAVRA: assim
+ARQUIVO dataset/Docs/globalizacao.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+133: vez
+134: necessidade
+134: modo
+134: sistema
+134: importância
+134: formas
+134: podemos
+134: melhoria
+134: quadros
+200: sentido
+
+AVL TREE -> 
+133: vez
+134: necessidade
+134: modo
+134: sistema
+134: importância
+134: formas
+134: podemos
+134: melhoria
+134: quadros
+200: sentido
+
+HUFFMAN CODE ->
+modo: 000
+sistema: 001
+importância: 010
+formas: 011
+podemos: 100
+sentido: 101
+vez: 1100
+melhoria: 1101
+quadros: 1110
+necessidade: 1111
+
+===================================================================
+PALAVRA: políticas
+ARQUIVO dataset/Docs/politica.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+134: sistema
+134: informações
+134: ainda
+198: eleitores
+198: política
+199: melhoria
+199: metas
+200: atual
+200: saúde
+200: sentido
+
+AVL TREE -> 
+134: sistema
+134: informações
+134: ainda
+198: eleitores
+198: política
+199: melhoria
+199: metas
+200: atual
+200: saúde
+200: sentido
+
+HUFFMAN CODE ->
+política: 000
+melhoria: 001
+metas: 010
+atual: 011
+saúde: 100
+sentido: 101
+sistema: 1100
+informações: 1101
+ainda: 1110
+eleitores: 1111
+
+===================================================================
+PALAVRA: políticas
+ARQUIVO dataset/Docs/ti2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+AVL TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+HUFFMAN CODE ->
+tempo: 000
+sistema: 001
+melhor: 010
+hardware: 011
+aumento: 100
+implantação: 101
+desenvolvimento: 1100
+impacto: 1101
+novas: 1110
+informações: 1111
+
+===================================================================
+PALAVRA: políticas
+ARQUIVO dataset/Docs/ti.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+AVL TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+HUFFMAN CODE ->
+melhor: 000
+sistema: 001
+impacto: 010
+novas: 011
+informações: 100
+implantação: 101
+hardware: 1100
+tempo: 1101
+desenvolvimento: 1110
+aumento: 1111
+
+===================================================================
+PALAVRA: políticas
+ARQUIVO dataset/Docs/globalizacao.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+133: vez
+134: necessidade
+134: modo
+134: sistema
+134: importância
+134: formas
+134: podemos
+134: melhoria
+134: quadros
+200: sentido
+
+AVL TREE -> 
+133: vez
+134: necessidade
+134: modo
+134: sistema
+134: importância
+134: formas
+134: podemos
+134: melhoria
+134: quadros
+200: sentido
+
+HUFFMAN CODE ->
+podemos: 000
+melhoria: 001
+modo: 010
+sistema: 011
+quadros: 100
+sentido: 101
+vez: 1100
+necessidade: 1101
+importância: 1110
+formas: 1111
+
+===================================================================
+PALAVRA: político
+ARQUIVO dataset/Docs/filosofia.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+AVL TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+HUFFMAN CODE ->
+sobre: 000
+segundo: 001
+pensamento: 010
+modo: 011
+mundo: 100
+condição: 101
+vista: 1100
+imanente: 1101
+sentido: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: político
+ARQUIVO dataset/Docs/filosofia2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+AVL TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+HUFFMAN CODE ->
+segundo: 000
+pensamento: 001
+sistema: 010
+modo: 011
+condição: 100
+mundo: 101
+princípio: 1100
+imanente: 1101
+sentido: 1110
+sobre: 1111
+
+===================================================================
+PALAVRA: político
+ARQUIVO dataset/Docs/politica.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+134: sistema
+134: informações
+134: ainda
+198: eleitores
+198: política
+199: melhoria
+199: metas
+200: atual
+200: saúde
+200: sentido
+
+AVL TREE -> 
+134: sistema
+134: informações
+134: ainda
+198: eleitores
+198: política
+199: melhoria
+199: metas
+200: atual
+200: saúde
+200: sentido
+
+HUFFMAN CODE ->
+política: 000
+melhoria: 001
+metas: 010
+atual: 011
+saúde: 100
+sentido: 101
+sistema: 1100
+informações: 1101
+ainda: 1110
+eleitores: 1111
+
+===================================================================
+PALAVRA: político
+ARQUIVO dataset/Docs/globalizacao.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+133: vez
+134: necessidade
+134: modo
+134: sistema
+134: importância
+134: formas
+134: podemos
+134: melhoria
+134: quadros
+200: sentido
+
+AVL TREE -> 
+133: vez
+134: necessidade
+134: modo
+134: sistema
+134: importância
+134: formas
+134: podemos
+134: melhoria
+134: quadros
+200: sentido
+
+HUFFMAN CODE ->
+modo: 000
+sistema: 001
+importância: 010
+formas: 011
+quadros: 100
+sentido: 101
+vez: 1100
+necessidade: 1101
+podemos: 1110
+melhoria: 1111
+
+===================================================================
+PALAVRA: segurança
+ARQUIVO dataset/Docs/ti2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+AVL TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+HUFFMAN CODE ->
+tempo: 000
+sistema: 001
+melhor: 010
+hardware: 011
+aumento: 100
+implantação: 101
+desenvolvimento: 1100
+impacto: 1101
+novas: 1110
+informações: 1111
+
+===================================================================
+PALAVRA: segurança
+ARQUIVO dataset/Docs/ti.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+AVL TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+HUFFMAN CODE ->
+melhor: 000
+sistema: 001
+impacto: 010
+novas: 011
+informações: 100
+implantação: 101
+hardware: 1100
+tempo: 1101
+desenvolvimento: 1110
+aumento: 1111
+
+===================================================================
+PALAVRA: utilização
+ARQUIVO dataset/Docs/ti2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+AVL TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+HUFFMAN CODE ->
+tempo: 000
+sistema: 001
+melhor: 010
+hardware: 011
+aumento: 100
+implantação: 101
+desenvolvimento: 1100
+impacto: 1101
+novas: 1110
+informações: 1111
+
+===================================================================
+PALAVRA: utilização
+ARQUIVO dataset/Docs/ti.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+AVL TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+HUFFMAN CODE ->
+melhor: 000
+sistema: 001
+impacto: 010
+novas: 011
+informações: 100
+implantação: 101
+hardware: 1100
+tempo: 1101
+desenvolvimento: 1110
+aumento: 1111
+
+===================================================================
+PALAVRA: dados
+ARQUIVO dataset/Docs/filosofia.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+AVL TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+HUFFMAN CODE ->
+sobre: 000
+segundo: 001
+pensamento: 010
+modo: 011
+mundo: 100
+condição: 101
+vista: 1100
+imanente: 1101
+sentido: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: dados
+ARQUIVO dataset/Docs/filosofia2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+AVL TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+HUFFMAN CODE ->
+segundo: 000
+pensamento: 001
+sistema: 010
+modo: 011
+condição: 100
+mundo: 101
+princípio: 1100
+imanente: 1101
+sentido: 1110
+sobre: 1111
+
+===================================================================
+PALAVRA: dados
+ARQUIVO dataset/Docs/ti2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+AVL TREE -> 
+198: desenvolvimento
+199: impacto
+199: novas
+199: informações
+199: tempo
+199: sistema
+200: melhor
+200: hardware
+201: aumento
+266: implantação
+
+HUFFMAN CODE ->
+sistema: 000
+impacto: 001
+melhor: 010
+hardware: 011
+aumento: 100
+implantação: 101
+desenvolvimento: 1100
+novas: 1101
+informações: 1110
+tempo: 1111
+
+===================================================================
+PALAVRA: dados
+ARQUIVO dataset/Docs/ti.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+AVL TREE -> 
+198: hardware
+199: tempo
+199: desenvolvimento
+199: aumento
+200: melhor
+200: sistema
+200: impacto
+200: novas
+201: informações
+265: implantação
+
+HUFFMAN CODE ->
+melhor: 000
+sistema: 001
+impacto: 010
+novas: 011
+informações: 100
+implantação: 101
+hardware: 1100
+tempo: 1101
+desenvolvimento: 1110
+aumento: 1111
+
+===================================================================
+PALAVRA: filosofia
+ARQUIVO dataset/Docs/filosofia.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+AVL TREE -> 
+96: vista
+104: imanente
+110: sentido
+114: sistema
+114: sobre
+114: segundo
+115: pensamento
+129: modo
+134: mundo
+134: condição
+
+HUFFMAN CODE ->
+sobre: 000
+segundo: 001
+pensamento: 010
+modo: 011
+mundo: 100
+condição: 101
+vista: 1100
+imanente: 1101
+sentido: 1110
+sistema: 1111
+
+===================================================================
+PALAVRA: filosofia
+ARQUIVO dataset/Docs/filosofia2.txt
+EXIBIÇÃO InOrder -> 
+
+BINARY TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+AVL TREE -> 
+97: princípio
+109: imanente
+111: sentido
+114: sobre
+114: segundo
+115: pensamento
+118: sistema
+129: modo
+133: condição
+144: mundo
+
+HUFFMAN CODE ->
+segundo: 000
+pensamento: 001
+sistema: 010
+modo: 011
+condição: 100
+mundo: 101
+princípio: 1100
+imanente: 1101
+sentido: 1110
+sobre: 1111
